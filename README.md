@@ -1,4 +1,5 @@
 # forked from debaet, modified to 0 errors by pajama
+I had to learn python to do this, so please if there is any errors contact me @ herf="clanltx49@gmail.com"
 
 # Why is This Important?
 This is important because this is one of the first function IXL Bot there is.
