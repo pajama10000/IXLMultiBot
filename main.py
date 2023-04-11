@@ -19,7 +19,7 @@ driver = webdriver.Chrome(PATH)
 
 
 def main4(argv):
-	lesson = input('Enter lesson link for algerba')
+	lesson = input('Enter lesson link for algebra')
 	while True:
 		driver.get(lesson)
 		time.sleep(4)
@@ -27,7 +27,7 @@ def main4(argv):
 		time.sleep(4)
 		q1 = driver.find_element_by_class_name('yui3-practiceagent-content')
 		q2 = q1.text
-		print(repr(q2))
+		print(repo(q2))
 		driver.find_element_by_xpath('/html/body/div[9]/section/div[1]/div[1]/div[6]/div/div[1]/div/div[2]/button').click()
 		time.sleep(4)
 		driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/button[2]').click()
